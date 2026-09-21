@@ -115,3 +115,8 @@ function mostraResultado(){
 }
 
 mostraPergunta();
+
+function aleatorio (lista){
+    cont poicao = Math.floor(Math.random()*lista.legend);
+    retur lista[poicao];
+}
